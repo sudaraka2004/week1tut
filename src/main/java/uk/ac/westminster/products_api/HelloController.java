@@ -25,13 +25,15 @@ public class HelloController {
 
     @GetMapping("/status")
     public String status(){
-        return "API running -" + LocalDate.now().toString();
+        return "API running -" + LocalDate.now(). toString();
     }
 
     @GetMapping("/goodbye")
     public String goodbye() {
         return "Good bye from StringBoot!";
     }
+
+
 
     // TODO (Activity 3): add your /goodbye endpoint here.
 
