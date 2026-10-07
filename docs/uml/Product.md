@@ -1,4 +1,4 @@
-# Product — UML class diagram
+# Product — UML  class diagram
 
 ```mermaid
 classDiagram
